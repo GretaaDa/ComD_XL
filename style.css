@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  background-image: url(./img/cover.png);
+  padding: 20vw 5rem;
+  background-position: center;
+  background-size: cover;
+}
+
+.cover {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.cover h1 {
+  color: #72340e;
+  font-size: 100px;
+}
+
+.cover h2 {
+  font-size: 50px;
+}
+
+.flower,
+.male-bee,
+.female-bee,
+.crops,
+.nectar,
+.proboscis,
+.amount-nectar,
+.worker-bees,
+.water-evap,
+.honeycomb {
+  display: flex;
+  flex-direction: row;
+  font-size: 25px;
+  padding: 20vw 10vw;
+  align-items: center;
+  gap: 5rem;
+}
+
+h3 {
+  padding-left: 5rem;
+}
+
+section img {
+  max-width: 50%;
+  object-position: right;
+}
+
+.container {
+  background-color: #fed22b;
+}
