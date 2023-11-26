@@ -33,7 +33,8 @@ header {
 .amount-nectar,
 .worker-bees,
 .water-evap,
-.honeycomb {
+.honeycomb,
+.map {
   display: flex;
   flex-direction: row;
   font-size: 25px;
