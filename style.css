@@ -24,6 +24,13 @@ header {
   font-size: 50px;
 }
 
+.intro-pol {
+  background-color: #fd8f02;
+  padding: 25vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
 .flower,
 .male-bee,
 .female-bee,
@@ -52,13 +59,27 @@ section img {
   object-position: right;
 }
 
+.intro-honey {
+  background-color: #fd8f02;
+  padding: 25vw;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
 #bee {
   display: grid;
   justify-content: center;
   margin-bottom: 30vh;
 }
 
-.container .beeHives{
+.bee {
+  justify-content: center;
+  display: flex;
+  padding-bottom: 11vw;
+}
+
+.container .beeHives {
   display: flex;
   justify-content: center;
 }
@@ -108,8 +129,8 @@ body {
 
 @media (max-width: 500px) {
   .scrollText {
-      max-width: 100%;
-      background: rgba(255, 255, 255, 0.8);
-      margin: 90px;
+    max-width: 100%;
+    background: rgba(255, 255, 255, 0.8);
+    margin: 90px;
   }
 }
