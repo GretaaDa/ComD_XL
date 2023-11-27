@@ -52,8 +52,19 @@ section img {
   object-position: right;
 }
 
+#bee {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 30vh;
+}
+
 .container {
   background-color: #fed22b;
+}
+
+.container .bee{
+  display: flex;
+  justify-content: center;
 }
 
 html {
