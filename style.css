@@ -30,7 +30,9 @@ header {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  font-size: 30px;
 }
+
 .flower,
 .male-bee,
 .female-bee,
@@ -65,6 +67,7 @@ section img {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  font-size: 30px;
 }
 
 #bee {
